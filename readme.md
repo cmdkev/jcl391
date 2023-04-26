@@ -1,4 +1,4 @@
-# Screen saver for uchicago vis+pl lab
+# Screen saver for uchicago jcl 391 lab screen (thanks to [uchicago vis+pl lab](https://github.com/uchicago-vis-pl-lab/vis-pl-lab))
 
 Dependencies are present to provide infra support, namely linting.
 To install, run yarn, then to lint, run yarn lint. Easy peasy.
