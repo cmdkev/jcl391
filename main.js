@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 const SECOND = 1000;
 const MINUTE = 60000;
-const RANDOM_OFFSET = Math.floor(Math.random() * 21000);
+const RANDOM_OFFSET = Math.floor(Math.random() * 1000);
 const rand = () => Math.floor(Math.random() * 21000);
 function prepYouTube({link, time}) {
   return {
@@ -21,10 +21,17 @@ const CODE_FUZZER = {
   type: 'image'
 };
 
-// const BALLOONS = prepYouTube({
-//   link: 'ENUibJRdlkk',
-//   time: MINUTE * 2 + 10 * SECOND
-// });
+// const BAD_GOVERNMENT = {
+//   url: `https://www.youtube.com/embed/kY9P7ruzOy4?rel=0;&autoplay=1&mute=1&start=${RANDOM_OFFSET}`,
+//   timeToDisplay: 1.0 * MINUTE,
+//   type: 'page'
+// };
+
+const CELESTE_TAS = {
+  url: `https://www.youtube.com/embed/MJ3G8x-OLRs?rel=0;&autoplay=1&mute=1&start=${Math.floor(Math.random() * 1000)}`,
+  timeToDisplay: 2.5 * MINUTE,
+  type: 'page'
+}
 const CAMPFIRE = prepYouTube({
   link: 'sWtEYPva4A0',
   time: MINUTE * 1
@@ -32,7 +39,8 @@ const CAMPFIRE = prepYouTube({
 
 const addresses = [
   CODE_FUZZER,
-  CAMPFIRE
+  CAMPFIRE, 
+  CELESTE_TAS
 ];
 //  SOME EXAMPLES:
 // const LLVM_ART = {
