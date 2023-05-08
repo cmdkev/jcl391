@@ -37,10 +37,57 @@ const CAMPFIRE = prepYouTube({
   time: MINUTE * 1
 })
 
+const BREAD = {
+  url: `https://www.youtube.com/embed/5nEc4h_Y9Hw?rel=0&autoplay=1&mute=1&start=${Math.floor(Math.random() * 100)}`,
+  timeToDisplay: .5 * MINUTE,
+  type: 'page'
+}
+
+const VOLCANO = {
+  url: `https://www.youtube.com/embed/uagVOi0AblA?rel=0&autoplay=1&mute=1&start=${Math.floor(Math.random() * 100)}`,
+  timeToDisplay: 3 * MINUTE,
+  type: 'page'
+}
+
+const FIXIE_CHICAGO = {
+  url: `https://www.youtube.com/embed/l-IDwfWPf3M?rel=0&autoplay=1&mute=1&start=${Math.floor(Math.random() * 1000)}`,
+  timeToDisplay: 1 * MINUTE,
+  type: 'page'
+}
+
+const HIKE = {
+  url: `https://www.youtube.com/embed/hld4uaO1MDE?rel=0&autoplay=1&mute=1&start=${Math.floor(Math.random() * 10000)}`,
+  timeToDisplay: 2 * MINUTE,
+  type: 'page'
+}
+
+const GREEN_LINE = {
+  url: `https://www.youtube.com/embed/sxlYzjBYSjQ?rel=0&autoplay=1&mute=1&start=${Math.floor(Math.random() * 2500)}`,
+  timeToDisplay: 3 * MINUTE,
+  type: 'page'
+}
+
+const YOSHI = prepYouTube({
+    link: '15bZlN0LrFg',
+    time: MINUTE * 1
+})
+
+const BIRDS_FOR_CATS = {
+  url: `https://www.youtube.com/embed/xbs7FT7dXYc?rel=0&autoplay=1&mute=1&start=${Math.floor(Math.random() * 20000)}`,
+  timeToDisplay: 5 * MINUTE,
+  type: 'page'
+}
+
 const addresses = [
-  CODE_FUZZER,
+  // CODE_FUZZER,
+  YOSHI,
+  HIKE,
+  GREEN_LINE,
+  VOLCANO,
+  FIXIE_CHICAGO,
   CAMPFIRE, 
-  CELESTE_TAS
+  CELESTE_TAS,
+  BIRDS_FOR_CATS
 ];
 //  SOME EXAMPLES:
 // const LLVM_ART = {
