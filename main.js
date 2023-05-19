@@ -78,8 +78,14 @@ const BIRDS_FOR_CATS = {
   type: 'page'
 }
 
+const KERMIT = prepYouTube({
+  link: 'j8Zq6w7CXtk',
+  time: MINUTE * 2
+})
+
 const addresses = [
   // CODE_FUZZER,
+  KERMIT,
   YOSHI,
   HIKE,
   GREEN_LINE,
