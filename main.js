@@ -83,17 +83,23 @@ const KERMIT = prepYouTube({
   time: MINUTE * 2
 })
 
+const SKELLY_DANCE = prepYouTube({
+  link: 'Qz1QIT6OQKE',
+  time: MINUTE * 60
+})
+
 const addresses = [
   // CODE_FUZZER,
-  KERMIT,
-  YOSHI,
-  HIKE,
-  GREEN_LINE,
-  VOLCANO,
-  FIXIE_CHICAGO,
-  CAMPFIRE, 
-  CELESTE_TAS,
-  BIRDS_FOR_CATS
+  SKELLY_DANCE
+  // KERMIT,
+  // YOSHI,
+  // HIKE,
+  // GREEN_LINE,
+  // VOLCANO,
+  // FIXIE_CHICAGO,
+  // CAMPFIRE, 
+  // CELESTE_TAS,
+  // BIRDS_FOR_CATS
 ];
 //  SOME EXAMPLES:
 // const LLVM_ART = {
