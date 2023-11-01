@@ -88,18 +88,27 @@ const SKELLY_DANCE = prepYouTube({
   time: MINUTE * 60
 })
 
+const MARIO_SPEEDRUN = 
+{
+  url: `https://www.youtube.com/embed/ieOWINq4uv8?rel=0&autoplay=1&mute=1&start=${Math.floor(Math.random() * 5000)}`,
+  timeToDisplay: 2 * MINUTE,
+  type: 'page'
+}
+
+
 const addresses = [
   // CODE_FUZZER,
-  SKELLY_DANCE
-  // KERMIT,
-  // YOSHI,
-  // HIKE,
-  // GREEN_LINE,
-  // VOLCANO,
-  // FIXIE_CHICAGO,
-  // CAMPFIRE, 
-  // CELESTE_TAS,
-  // BIRDS_FOR_CATS
+  // SKELLY_DANCE
+  MARIO_SPEEDRUN,
+  KERMIT,
+  YOSHI,
+  HIKE,
+  GREEN_LINE,
+  VOLCANO,
+  FIXIE_CHICAGO,
+  CAMPFIRE, 
+  CELESTE_TAS,
+  BIRDS_FOR_CATS
 ];
 //  SOME EXAMPLES:
 // const LLVM_ART = {
